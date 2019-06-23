@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -227,7 +227,34 @@ justify-content: space-between;
 padding:0 5px 0 5px;
 }
 
+.fi:before{
+	font-family: 'FontAwesome',"fontello" ;
+	font-size:18px;
+}
 
+.fi:after{
+	font-family: 'FontAwesome',"fontello" ;
+}
+.fi-twitter:before{
+	content: '\f099' ;
+}
+.fi-facebook:before{
+	content: '\f09a' ;
+}
+
+.fi-google-plus:before{
+	content: '\f0d5' ;
+}
+
+.fi-instagram:before{
+	content: '\f16d' ;
+}
+
+.fi-get-pocket:before{
+	content: '\f265' ;
+}
+c-fa-line:before{
+	content: '\e800' ;
 }
 
 /*SNS//*/
@@ -324,6 +351,9 @@ z-index: 5;
   margin: 5px;
 }
 
+.fi:before{
+	font-size:18px;
+}
 
 .footer-col  section {
   margin-bottom: 50px;
@@ -332,7 +362,6 @@ z-index: 5;
 .sns-icon{
 font-size: 18px;
 }
-
 
 
 }
@@ -359,12 +388,15 @@ font-size: 18px;
   height: 40px;
 }
 
+
 .sns-icon{
 font-size: 24px;
 }
 
 
 }
+
+
 
 @media screen and (min-width:768px) and ( max-width:1024px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む　*/
@@ -397,7 +429,6 @@ flex-direction:row;
 .sns-icon{
 font-size: 28px;
 }
-
 
 
 }
@@ -436,6 +467,10 @@ font-size: 28px;
   height: 50px;
 }
 
+.sns-icon{
+font-size: 30px;
+}
+
 
 .footer-col {
 flex-direction:row; 
@@ -447,9 +482,6 @@ flex-direction:row;
 
 .form-control,.form-title{max-width:480px;width:100%}
 
-.sns-icon{
-font-size: 30px;
-}
 
 }
 </style>
@@ -624,7 +656,7 @@ font-size: 30px;
     <a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp://www.kama1995.com" title="line"><i class="fab fa-line sns-icon"></i></a>
   </div>
   <div class="sns_button pocket">
-    <a href="http://getpocket.com/edit?url=http://www.kama1995.com" title="pocket"><i class="fab fa-get-pocket sns-icon"></i>
+    <a href="http://getpocket.com/edit?url=http://www.kama1995.com" title="pocket"><i class="fab fa-get-pocket sns-icon"></i></a>
   </div>
 </div>
   </section>
