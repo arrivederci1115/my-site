@@ -1,0 +1,250 @@
+@charset "utf-8";
+/*** mainColumn ***/
+.main {
+display: -webkit-box;/* Android4.3以前ブラウザ用 */
+display: -webkit-flex;/* iOS8以前Safari用 */
+display: flex;
+flex-direction: column;
+}
+.box_s{
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.main section {
+  flex-grow: 1;/*** IE11 ***/
+ -webkit-box-flex: 1;/*--- Android4.3以前ブラウザ用 ---*/
+ -webkit-flex: 1;/*--- iOS8以前Safari用 ---*/
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+}
+.main .col-2 {
+  flex: 2;
+  flex-grow: 2;/*** IE11 ***/
+  -webkit-box-flex: 2;/*--- Android4.3以前ブラウザ用 ---*/  
+}
+h1 {
+  color: #333;
+  font-size: 26px;
+  text-align:center;
+  margin: 20px 0;
+}
+
+.contents .rcm-title{
+	font-size:32px;
+	color:#FFF;
+	}
+.main p {
+	line-height:1.8;
+  color:#333;
+  font-size:18px;
+}
+/*** InnerColumn ***/
+
+.Inner-box {
+  margin-bottom: 20px;
+  color: #fff;
+  text-align:center;
+  position: relative;
+  overflow: hidden;
+	}
+	
+.rcm-box img {
+  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 0.4s, transform 0.4s;
+  transition: opacity 0.4s, transform 0.4s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.rcm-box:hover img {
+  opacity: 0.3;
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.2, 1.2, 1);
+}
+.rcm-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.rcm-box:hover .rcm-overlay {
+  opacity: 1;
+}
+.rcm-contents {
+  padding: 0 10px 5px;
+  color: #333;
+  -webkit-transform: scale3d(0, 0, 1);
+  transform: scale3d(0, 0, 1);
+  -webkit-transition: transform 0.4s, color 0.4s;
+  transition: transform 0.4s, color 0.4s;
+}
+.rcm-box:hover .rcm-contents {
+  color: white;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.rcm-button {
+  background: #FF6;
+  padding: 5px 30px;
+  text-decoration: none;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+}
+.rcm-box:hover .rcm-button {
+  background: white;
+}
+
+	
+.main .multiple{
+  display: flex;
+  display: -webkit-flex;/*--- safari（PC）用 ---*/ 
+-webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  }
+.main .multiple li{
+   width:32.5%;
+   margin:0 auto;
+  padding:10px;
+  background:none;
+}
+.multiple .fa{
+	font-size:48px;
+	transition:transform 0.4s;
+	}
+.multiple .fa{
+    -webkit-animation:animation-icon 5s infinite linear;
+    animation:animation-icon 5s infinite linear;
+}
+.iframe-content {
+   position: relative;
+ width: 100%;
+    padding: 75% 0 0 0;
+	border-radius:0px;
+	margin-bottom: -50px;
+}
+
+.iframe-content iframe {
+    position: absolute;
+ top: 0;
+ left: 0;
+    width: 100%;
+    height: 75%;
+}
+.bg-concept{
+	background: url(../img/bg-01.jpg) no-repeat;
+	background-position: top;
+}
+.bg-sns{
+	background:#3381ff;
+	}
+.bg-sns2{
+	background:#29D6D6;
+	}
+	
+.contents .white{
+	color:#FFF;
+	font-size:32px;
+	}
+		
+.h1_wrapper{
+	max-width:640px;
+	width:100%;
+    margin:2em  auto;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px  #CCC;
+    border-bottom: solid 2px #CCC;
+	}
+.h1_wrapper:before,.h1_wrapper:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: #CCC;
+	}
+.h1_wrapper:after {
+ right: 10px;
+ }
+ 
+.h1_wrapper:before {
+left: 10px;
+}
+.h1_wrapper h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+
+@keyframes animation-icon {
+     
+    from{
+        -ms-transform:rotateY(0deg);
+        -webkit-transform:rotateY(0deg);
+        transform:rotateY(0deg);
+    }
+    to{
+        -ms-transform:rotateY(360deg);
+        -webkit-transform:rotateY(360deg);
+        transform:rotateY(360deg);
+    }
+	}
+	
+.multiple .fa:hover{
+	transform: scale3d(1.2, 1.2, 1);
+}
+	
+	
+@media screen and (min-width:480px) { 
+
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+	
+.main {
+flex-direction:row; 
+}
+
+.main section {
+  margin-bottom: 20px;
+}
+
+.main	 .multiple li{
+   width:25.5%;
+}
+
+}
+@media screen and (min-width:1024px)  {
+		
+.main {
+flex-direction:row; 
+}
+
+.main section {
+  margin-bottom: 20px;
+}
+
+.main	 .multiple li{
+   width:10.5%;
+}
+.bg-concept{
+	background-position: center;
+    background-size: cover;
+    }
+h1 {
+  font-size: 40px;
+  margin: 50px 0;
+}
+.main p {
+  margin-top: 10px;
+  font-size:20px;
+}
+
+
+}
