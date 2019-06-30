@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,9 +32,12 @@ body{font-family:"Noto Sans Japanese",-apple-system,BlinkMacSystemFont,'Helvetic
 
 img{
 	width:100%;
+}
+
+.rcm-box img{
 	transition: opacity 0.4s, transform 0.4s;
 	}
-img:hover{
+.rcm-box img:hover{
 	transform: scale3d(1.2, 1.2, 1);
 	opacity: .6;
 	}
@@ -56,13 +59,16 @@ animation: fadeIn 8s ease 0s 1 normal;
 }	
 
 /*** header***/
+
 header {
 	width:100%;
 	height:100vmin;
 	position:relative;
-	background: url(img-bg/test4.jpg) no-repeat;
+	background: url(img-bg/test0.jpg) no-repeat;
 	background-size: cover;
+	background-position-x: 48%;
 }
+
 .bg-effect{
 	height:100vmin;
 	background: linear-gradient(45deg, rgba(108,184,255,0.4),rgba(255,246,108,0.4), rgba(255,163,108,0.4));
@@ -328,10 +334,8 @@ font-family:"Noto Sans Japanese";color:#FFF;cursor:pointer;border:2px solid #CCC
 
 @media screen and (min-width:480px) { 
     /*　画面サイズが480pxからはここを読み込む　*/
-header {
-	background: url(img-bg/test4.jpg) no-repeat;
-	background-size: cover;
-}
+
+
 .main-nav {
 position: fixed;
 background-color:rgba(0,0,0,0.6);
@@ -431,9 +435,12 @@ font-size: 28px;
 
 @media screen and (min-width:1024px) {
     /*　画面サイズが1024pxからはここを読み込む　*/
+
+
 .center-middle {
   height: 200px;
 }
+
 	
 .caption {
 	font-size:56px;
@@ -501,22 +508,22 @@ flex-direction:row;
     <label class="close-menu" for="checked"></label>
     <nav class="nav-sp">
         <ul>
-    <li><p class="nav-sp-text">毎週祝日とか日曜（適当にやる感じです）</p></li>
-    <li><a href="#m1">コンセプト</a></li>
-    <li><a href="#m2">新着情報</a></li>
-    <li><a href="#m3">プロフィール</a></li>
-    <li><a href="#m4">予定表</a></li>
+    <li><p class="nav-sp-text">××××××</p></li>
+    <li><a href="#m1">××××××</a></li>
+    <li><a href="#m2">××××××</a></li>
+    <li><a href="#m3">××××××</a></li>
+    <li><a href="#m4">××××××</a></li>
         </ul>
 </nav>
 <!--- nav ---->
 <nav>
   <ul class="main-nav">
     <li><a href="#" class="logo">Logo</a></li>
-    <li><a href="#"><i class="fas fa-store"></i>毎週祝日とか日曜（適当にやる感じです）</a></li>
-    <li><a href="#m1"><i class="fas fa-grin-beam-sweat"></i>コンセプト</a></li>
-    <li><a href="#m2"><i class="fas fa-broadcast-tower"></i>新着情報</a></li>
-    <li><a href="#m3"><i class="fas fa-grin-tears"></i>プロフィール</a></li>
-    <li><a href="#m4"><i class="fas fa-calendar-alt"></i>予定表</a></li>
+    <li><a href="#"><i class="fas fa-store"></i>××××××</a></li>
+    <li><a href="#m1"><i class="fas fa-grin-beam-sweat"></i>××××××</a></li>
+    <li><a href="#m2"><i class="fas fa-broadcast-tower"></i>××××××</a></li>
+    <li><a href="#m3"><i class="fas fa-grin-tears"></i>××××××</a></li>
+    <li><a href="#m4"><i class="fas fa-calendar-alt"></i>××××××</a></li>
   </ul>
 </nav>
 
@@ -525,7 +532,7 @@ flex-direction:row;
 <div class="center-middle">
 	<div class="mask radius">
 		<div class="caption">
-            	<a href="#">#だるいバー&trade;<br/>お酒とツマミと居場所だけの雑談空間<i class="fas fa-beer"></i></a>
+            	<a href="#">××××××&trade;<br/>××××××<i class="fas fa-beer"></i></a>
         </div>
 	</div>
 </div>
@@ -537,7 +544,7 @@ flex-direction:row;
 <div class="contents"><!--- contents --->
 
 
-<div class="h1_wrapper"><h1 id="m1"><i class="far fa-grin-beam-sweat"></i>こんせぷと</h1>
+<div class="h1_wrapper"><h1 id="m1"><i class="far fa-grin-beam-sweat"></i>××××××</h1>
 </div>
 
 <div class="main bg-concept box_s">
@@ -545,7 +552,7 @@ flex-direction:row;
     		<div class="Inner-box">
             	<div class="rcm-box"><img src="img/on1.png">
                 	<div class="rcm-overlay">
-                        	      <p class="rcm-title"><i class="fas fa-city"></i>都内に</p>
+                        	      <p class="rcm-title"><i class="fas fa-city"></i>××××××</p>
                    </div>
                </div>
             </div>
@@ -555,7 +562,7 @@ flex-direction:row;
     		<div class="Inner-box">
             	<div class="rcm-box"><img src="img/on2.png">
                 	<div class="rcm-overlay">
-                        	      <p class="rcm-title"><i class="fas fa-grin-squint-tears"></i>誰でも来れる</p>
+                        	      <p class="rcm-title"><i class="fas fa-grin-squint-tears"></i>××××××</p>
                    </div>
                </div>
             </div>
@@ -565,7 +572,7 @@ flex-direction:row;
     		<div class="Inner-box">
             	<div class="rcm-box"><img src="img/on3.png">
                 	<div class="rcm-overlay">
-                        	      <p class="rcm-title"><i class="fas fa-thumbs-up"></i>意識の低い場所</p>
+                        	      <p class="rcm-title"><i class="fas fa-thumbs-up"></i>××××××</p>
                    </div>
                </div>
             </div>
@@ -574,18 +581,18 @@ flex-direction:row;
 
 <div class="main">
   <section class="col-1">
-    <h1>どなたでもカレーを無料で提供します。</h1>
-    		<div class="Inner-box"><p>「金なくても美味しいものが食べたいなー」</p>
-            <p>「居場所がほしい」「シュールな体験をがしたい」</p>
-            <p>「単純にカレー好き」「暇・・・」</p>           
-            <p>理由はいらないです。とりあえず赤羽まで来てください(笑)</p>
+    <h1>××××××</h1>
+    		<div class="Inner-box"><p>××××××</p>
+            <p>××××××</p>
+            <p>××××××</p>           
+            <p>××××××</p>
             </div>
   </section>
 </div>
 
 
 <div class="h1_wrapper">
-<h1 id="m2"><i class="fas fa-broadcast-tower"></i>新着情報</h1>
+<h1 id="m2"><i class="fas fa-broadcast-tower"></i>××××××</h1>
 </div>
 
 <div class="main space bg-sns box_s">
@@ -609,7 +616,7 @@ flex-direction:row;
             	<div class="rcm-box"><p class="white"><i class="fab fa-twitter"></i>Twitter</p>
                </div>
             </div>
-    		<div class="Inner-box"><p>TL入る</p>
+    		<div class="Inner-box"><a class="twitter-timeline" width="100%" height="525px" href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter noborders ">Tweets by quartet1115</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
   </section>
 
@@ -617,20 +624,23 @@ flex-direction:row;
     
 
 <div class="h1_wrapper">
-<h1 id="m3"><i class="far fa-grin-tears"></i>プロフィール</h1>
+<h1 id="m3"><i class="far fa-grin-tears"></i>××××××</h1>
 </div>
 
 <div class="main">
   <section class="col-1">
-    <h3>ここは画像</h3>
-    <p>ここは画像</p>
+    <h3><img src="img/ex7.jpg"></h3>
   </section>
   <section class="col-2">
-    <p>今まで会社員や自営業、フリーターやニートを経て現在はカレーの通販で何とか生計を立ててます。
-ちょうど実家に空きスペースがあって、そこでカレーを提供できたらなーと思いました。商売ではなくまぁ趣味みたいなゆるい感じです(笑)
-店員と客という関係もなくフルフラットで気軽な運営をしてこうと思います。何も手付かずで始めたので設備や空間はこれから誰かに協力してもらい、少しづつ個性ある空間になればいいかなと思います。
-他にも赤羽は呑兵衛の街として有名ですので、酒好きの方にはたまらないかなーと(笑)まぁ楽しんでください。</p>
+    <p style="text-align:center;">××××××××××××××××××××××××
+××××××××××××××××××××××××
+××××××××××××××××××××××××
+××××××××××××××××××××××××</p>  
    </section>
+  <section class="col-3">
+<img src="img/ex8.jpg">
+   </section>
+
 </div>
 
 <div class="main bg-sns2">
@@ -640,19 +650,19 @@ flex-direction:row;
     <a href="http://twitter.com/share?url=http://www.kama1995.com&text=カーマ" target="_blank"" title="Tweet"><i class="fab fa-twitter sns-icon"></i></a>
   </div>
   <div class="sns_button facebook">
-    <a href="http://www.facebook.com/sharer.php?u=http://www.kama1995.com" title="Facebook"><i class="fab fa-facebook-f sns-icon"></i></a>
+    <a href="http://www.facebook.com/sharer.php?u=××××××××××" title="Facebook"><i class="fab fa-facebook-f sns-icon"></i></a>
   </div>
   <div class="sns_button google">
-    <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=http://www.kama1995.com" title="google+"><i class="fab fa-google-plus-g sns-icon"></i></a>
+    <a href="https://plusone.google.com/_/+1/confirm?hl=ja&url=××××××××××" title="google+"><i class="fab fa-google-plus-g sns-icon"></i></a>
   </div>
   <div class="sns_button instagram">
-    <a href="https://www.instagram.com/tancob/?ref=badge" title="instagram"><i class="fab fa-instagram sns-icon"></i></a>
+    <a href="https://www.instagram.com/××××××××××?ref=badge" title="instagram"><i class="fab fa-instagram sns-icon"></i></a>
   </div>
     <div class="sns_button line">
-    <a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp://www.kama1995.com" title="line"><i class="fab fa-line sns-icon"></i></a>
+    <a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp://××××××××××" title="line"><i class="fab fa-line sns-icon"></i></a>
   </div>
   <div class="sns_button pocket">
-    <a href="http://getpocket.com/edit?url=http://www.kama1995.com" title="pocket"><i class="fab fa-get-pocket sns-icon"></i></a>
+    <a href="http://getpocket.com/edit?url=http://××××××××××" title="pocket"><i class="fab fa-get-pocket sns-icon"></i></a>
   </div>
 </div>
   </section>
@@ -680,8 +690,8 @@ flex-direction:row;
 
   </section>
   <section class="col-1">
-<iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=YXJyaXZlZGVyY2kxMTE1QGdtYWlsLmNvbQ&amp;color=%23039BE5&amp;showTitle=1&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;title=%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-   </section>
+<h4 id="m4"><i class="fas fa-calendar-alt"></i>Calendar</h4>
+<iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%2333B679&amp;ctz=Asia%2FTokyo&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;hl=en_GB&amp;src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23A79B8E" style="border-width:0" width="100%" height="578" frameborder="0" scrolling="no"></iframe>   </section>
 </div>
 
 <div class="footer-col">
@@ -690,14 +700,14 @@ flex-direction:row;
 	<div class="form">
 <form role="form" action="php/mail.php" method="post">
 <div class="form-group">
-<label for="exampleInputName1" class="form-title">お名前</label><br>
+<label for="exampleInputName1" class="form-title"><i class="fas fa-user"></i>お名前</label><br>
 <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required><br>
-<label for="exampleInputEmail1" class="form-title">メールアドレス</label><br>
+<label for="exampleInputEmail1" class="form-title"><i class="fas fa-at"></i>メールアドレス</label><br>
 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required><br>
-<label for="exampleInputText1" class="form-title">メッセージ</label><br>
+<label for="exampleInputText1" class="form-title"><i class="fas fa-envelope-open-text"></i>メッセージ</label><br>
 <textarea class="form-control last-form" rows="3" name="message" required></textarea><br>
 </div>
-<button type="submit" value="SEND MESSAGE" class="btn-form btn-default btn-bottom">送信</button>
+<button type="submit" value="SEND MESSAGE" class="btn-form btn-default btn-bottom"><i class="fas fa-paper-plane"></i>送信</button>
 </form>
 	</div>
   </section>
@@ -705,15 +715,15 @@ flex-direction:row;
   <section class="col-1">
   <div class="h1_wrapper">
 
-    <h4>Address</h4>
-    <p>〒115-0042 東京都北区志茂1-16-19</p>
-    <p><a href="https://twitter.com/quartet1115">@quartet1115</a></p><br/>
-    <p><i class="fa fa-exclamation-circle"></i>事前に要予約※フォームかDMください</p>
-    <p><i class="fa fa-beer"></i>飲み物持ち込み自由</p>
-    <p><i class="fa fa-hand-holding-heart"></i>飲み過ぎたら池に落としますｗ</p>
-    <p><i class="fa fa-ambulance"></i>設備はボロいので期待しない</p>
-    <p><i class="fa fa-wifi"></i>wifiや電源はどーぞ使ってください！</p><br/>
-    <p>Copyright c 2018 喜捨カレー All Rights Reserved.</p>
+    <h4><i class="fas fa-map-marker-alt"></i>Address</h4>
+    <p>××××××</p>
+    <p><a href="https://twitter.com"><i class="fab fa-twitter"></i>@××××××</a></p><br/>
+    <p><i class="fa fa-exclamation-circle"></i>××××××</p>
+    <p><i class="fa fa-beer"></i>××××××</p>
+    <p><i class="fa fa-hand-holding-heart"></i>××××××</p>
+    <p><i class="fa fa-ambulance"></i>××××××</p>
+    <p><i class="fa fa-wifi"></i>××××××！</p><br/>
+    <p>Copyright c 2018 ×××××× All Rights Reserved.</p>
 
 </div>
   </section>

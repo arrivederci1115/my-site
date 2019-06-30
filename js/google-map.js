@@ -3,11 +3,11 @@
   function initMap() {
 
     // マップ基本設定
-    var latLng = new google.maps.LatLng(35.775967, 139.726998);
+    var latLng = new google.maps.LatLng(35.0020918,135.7581062,15.67);
     map = new google.maps.Map(
       document.getElementById("map1"),
       {
-        zoom: 16,  // 拡大率
+        zoom: 12,  // 拡大率
         center: latLng,
         scrollwheel: false  // マウスホイールで拡縮しなくなる
       }

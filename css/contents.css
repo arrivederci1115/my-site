@@ -8,7 +8,9 @@ flex-direction: column;
 }
 .box_s{
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    background: #dceaff;
 }
+
 .main section {
   flex-grow: 1;/*** IE11 ***/
  -webkit-box-flex: 1;/*--- Android4.3以前ブラウザ用 ---*/
@@ -137,18 +139,21 @@ h1 {
     height: 75%;
 }
 .bg-concept{
-	background: url(../img/bg-01.jpg) no-repeat;
-	background-position: top;
+	background: url(../img/ex6.jpg) fixed;
+    background-position-x: 0%;
+    background-position-x: -68%;
+}
+
 }
 .bg-sns{
 	background:#3381ff;
 	}
 .bg-sns2{
-	background:#29D6D6;
+	background:#FFD4F9;
 	}
 	
 .contents .white{
-	color:#FFF;
+	color:#00A0FF;
 	font-size:32px;
 	}
 		
@@ -203,9 +208,17 @@ left: 10px;
 	
 	
 @media screen and (min-width:480px) { 
-
+.bg-concept {
+    background-position-x: 0%;
+    background-position-x: -120%;
+}
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
+
+    .bg-concept {
+    background-position-x: 0%;
+    background-position-x: -175%;
+}
 	
 .main {
 flex-direction:row; 
@@ -221,6 +234,12 @@ flex-direction:row;
 
 }
 @media screen and (min-width:1024px)  {
+    
+.bg-concept {
+    background-position-x: 0%;
+    background-position-x: -20%;
+}
+
 		
 .main {
 flex-direction:row; 
@@ -233,10 +252,6 @@ flex-direction:row;
 .main	 .multiple li{
    width:10.5%;
 }
-.bg-concept{
-	background-position: center;
-    background-size: cover;
-    }
 h1 {
   font-size: 40px;
   margin: 50px 0;
