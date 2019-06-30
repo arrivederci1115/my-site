@@ -139,9 +139,9 @@ h1 {
     height: 75%;
 }
 .bg-concept{
-	background: url(../img/ex6.jpg) fixed;
-    background-position-x: 0%;
-    background-position-x: -68%;
+background: url(../img/ex6.jpg) ;
+background-position-x: 0%;
+background-position-x: -68%;
 }
 
 }
@@ -208,16 +208,20 @@ left: 10px;
 	
 	
 @media screen and (min-width:480px) { 
-.bg-concept {
-    background-position-x: 0%;
-    background-position-x: -120%;
+    
+.bg-concept{
+background: url(../img/ex6.jpg) fixed;
+background-position-x: 0%;
+background-position-x: -68%;
+background-attachment: fixed;
 }
+    
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
 
     .bg-concept {
     background-position-x: 0%;
-    background-position-x: -175%;
+    background-position-x: -121%;
 }
 	
 .main {
@@ -237,7 +241,7 @@ flex-direction:row;
     
 .bg-concept {
     background-position-x: 0%;
-    background-position-x: -20%;
+    background-position-x: -10%;
 }
 
 		
