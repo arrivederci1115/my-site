@@ -73,7 +73,7 @@
     display: block;
     width: 40px;
     height: 3px;
-	background: #29D6D6;
+	background: #00FDFF;
     -webkit-transition: all .5s;
     transition: all .5s;
     -webkit-transform-origin: left top;
@@ -101,7 +101,7 @@
     left: 0;
     right: 0;
     margin: auto;
-	color: #29D6D6;
+	color: #00FDFF;
     -webkit-transition: all .5s;
     transition: all .5s;
     display: block;

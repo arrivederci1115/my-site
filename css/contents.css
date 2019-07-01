@@ -139,9 +139,10 @@ h1 {
     height: 75%;
 }
 .bg-concept{
-background: url(../img/ex6.jpg) ;
+background: url(../img/ex1.jpg) no-repeat;
 background-position-x: 0%;
-background-position-x: -68%;
+background-position-x: 20%;
+background-size: cover;
 }
 
 }
