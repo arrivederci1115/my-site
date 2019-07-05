@@ -144,22 +144,14 @@ background-position-x: 0%;
 background-position-x: 20%;
 background-size: cover;
 }
-<<<<<<< HEAD
-.bg-concept .col-4:hover,.bg-concept .col-5:hover{
-=======
 
-.bg-concept box_s>.col-4:hover,.bg-concept box_s>.col-5:hover{
->>>>>>> a1e439c9409e5300acba607255eff927f6a1409a
+.bg-concept .col-4:hover,.bg-concept .col-5:hover{
 background: rgba(0,0,0,0.5);
 -webkit-transition: all 2s ease;
 -moz-transition: all 2s ease;
 -o-transition: all 2s ease;
 transition: all  2s ease;    
 }
-<<<<<<< HEAD
-=======
-}
->>>>>>> a1e439c9409e5300acba607255eff927f6a1409a
 
 .bg-sns{
 	background:#87b5ff;
@@ -246,7 +238,7 @@ flex-direction:row;
   margin-bottom: 20px;
 }
 
-.main	 .multiple li{
+.main .multiple li{
    width:25.5%;
 }
 
