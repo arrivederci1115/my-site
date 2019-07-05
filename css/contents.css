@@ -144,14 +144,7 @@ background-position-x: 0%;
 background-position-x: 20%;
 background-size: cover;
 }
-.col-4:hover,.col-5:hover{
-background: rgba(0,0,0,0.5);
--webkit-transition: all 2s ease;
--moz-transition: all 2s ease;
--o-transition: all 2s ease;
-transition: all  2s ease;    
-}
-}
+
 .bg-sns{
 	background:#3381ff;
 	}
